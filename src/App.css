@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+body{
+    margin:0;
+    padding:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.leftSide{
+    border-right: 1px solid rgb(181, 169, 169);
 }
+.leftSide>img{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.center{
+    border-right: 1px solid grey;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.list{
+    margin-top: 25px;
+}
+.list>ul>li{
+    list-style: none;
+    font-size: x-large;
+    padding: 15px 0;
+}
+#tweet{
+    background-color: #1a8cd8;
+    color:white;
+    padding: 10px; 
+    text-align: center;
+    align-items: center;
+    display: block;
+    width:100%;
+    margin-top: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.Icon{
+    margin-right: 15px;
+}
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 3px;
   }
+.section{
+    display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section>h2{
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-left:10px;
 }
-
-.App-link {
-  color: #61dafb;
+.header>button{
+    background-color: #1a8cd8;
+    color:white;
+    padding: 10px 20px; 
+    text-align: end;
+    border-radius: 25px;
+    margin-top: 10px;
+ 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.post1 {
+    box-sizing: border-box;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .icon {
+    margin: 0px;
+    width: 300px;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .reaction{
+    margin-top: 10px;
+  }
+.reaction>ul>li{
+    list-style: none;   
 }
+.reaction>ul{
+    display: flex;
+    justify-content: space-around;
+}
+.userinfo{
+    display:flex;
+
+}
+.userinfo>h3{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+  
