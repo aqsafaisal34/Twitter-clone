@@ -138,8 +138,9 @@ function App() {
           </div>
           <hr />
           <div className="posts">
+          <div className="userinfo">
             <img className="profile" src={profileImg} alt="" />
-            <h3>Aqsa Faisal</h3>
+            <h3>Aqsa Faisal</h3></div>
           <img className="post2" src={post2Img} alt="" />
             <p className="reaction">
             <ul>
@@ -152,8 +153,9 @@ function App() {
           </div>
           <hr />
           <div className="posts">
+          <div className="userinfo">
             <img className="profile" src={profileImg} alt="" />
-            <h3>Aqsa Faisal</h3>
+            <h3>Aqsa Faisal</h3></div>
           <img className="post3" src={post3Img} alt="" />
             <p className="reaction">
             <ul>
