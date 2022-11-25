@@ -8,6 +8,8 @@ body{
 .leftSide>img{
     margin-left: 20px;
     margin-top: 15px;
+    position: sticky;
+    top:13px;
 }
 .center{
     border-right: 1px solid grey;
@@ -15,6 +17,8 @@ body{
 }
 .list{
     margin-top: 25px;
+    position: sticky;
+    top:75px;
 }
 .list>ul>li{
     list-style: none;
@@ -88,5 +92,30 @@ body{
 .userinfo>h3{
     margin-top: 9px;
     margin-left: 5px;
+}
+/* Right side styling */
+.searchBar{
+    margin-top: 5px;
+    position: sticky;
+    top:5px;
+}
+.trends>span{
+    font-weight: lighter;
+}
+.trends{
+    margin-top: 15px;  
+    position: sticky;
+    top:58px;
+}
+.trends>h6{
+    color:rgba(25, 62, 127, 0.872);
+}
+@media (max-width:800px) {
+    .leftSide{
+        display: none;
+    }
+    .rightSide{
+        display: none;
+    }
 }
   

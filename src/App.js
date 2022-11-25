@@ -3,6 +3,8 @@ import "./App.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import logo from "./assets/download.png";
 import post1Img from "./assets/post1.jpg";
 import post2Img from "./assets/post2.jpg";
@@ -166,7 +168,39 @@ function App() {
           
           
           </Col>
-          <Col className="rightSide">3 of 3</Col>
+          <Col className="rightSide">
+          <div className="searchBar">
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-info">Search</Button>
+          </Form>
+          </div>
+          <div className="trends">
+            <h3>Trends for you</h3>
+            <span>Trending in Pakistan</span>
+            <h5>#Pakistan Zindabad</h5>
+            <span>5,917 tweets</span>
+            <hr/>
+             <span>Trending</span>
+            <h5>#FIFA WorldCup</h5>
+            <span>50,100 tweets</span>
+            <hr/>
+            <span>Trending</span>
+            <h5>#Qatar</h5>
+            <span>100k tweets</span>
+            <hr/>
+            <span>Trending in Pakistan</span>
+            <h5>LSA</h5>
+            <span>1,100 tweets</span>
+            <hr/>
+            <h6>Show More</h6>
+          </div>
+          </Col>
         </Row>
       </Container>
     </>
